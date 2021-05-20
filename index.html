@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home</title>
+    <title id="Title">Home</title>
   </head>
   <body>
-    <h1>About</h1>
-    <p>
+    <h1 id="About">About</h1>
+    <p id="Paragraph1">
       My thoughts: <em>"HTML seems fun. 😃"</em>
     </p>
-    <img src="Images/Astronaut.svg" alt="Astronaut.svg">
-    <figcaption>
-      <a href="creations/">My creations!</a>
-    </figcaption>
+    <img id="AstronautImg" src="Images/Astronaut.svg" alt="Astronaut.svg">
+    <button onclick = "document.getElementById("Title").innerHTML = "Away">It won<span>&#39;</span>t be home when you click this button!</button>
   </body>
 </html>
